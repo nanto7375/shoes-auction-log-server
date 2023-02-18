@@ -2,6 +2,7 @@ import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import { isCelebrateError } from 'celebrate';
 
+import './models/config';
 import envConfig from './config/env.config';
 import logger from './config/log.config';
 // import router from './routes';

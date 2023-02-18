@@ -7,14 +7,11 @@ const envConfig = {
   env: process.env.ENV,
   
   // port
-  port: process.env.PRODUCT_PORT || 3002,
+  port: process.env.LOG_PORT || 3003,
 
   // db
-  database: process.env.PRODUCT_MYSQL_DB,
-  username: process.env.PRODUCT_MYSQL_DB_USER,
-  password: process.env.PRODUCT_MYSQL_DB_PASSWORD,
-  host: process.env.PRODUCT_MYSQL_DB_HOST,
-  dbPort: process.env.PRODUCT_MYSQL_DB_PORT,
+  mongodbUser: process.env.MONGO_DB_USER,
+  mongodbPassword: process.env.MONGO_DB_PASSWORD,
   
   // another server url
   authServer: process.env.AUTH_SERVER_ADDRESS,
