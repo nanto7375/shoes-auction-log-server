@@ -11,8 +11,6 @@ import { resError } from './utils/handler';
 import ErrorException from './exceptions/form.exception';
 import { notFoundRoute, badData } from './exceptions/definition.exception';
 
-// import { checkDbConnection } from './models';
-
 const app: express.Application = express();
 
 const { port } = envConfig;
